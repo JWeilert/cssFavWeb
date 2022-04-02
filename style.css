@@ -1,0 +1,198 @@
+body {
+  width: 100%;
+}
+
+main {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+main button:hover {
+  background-color: rgb(230, 230, 230);
+}
+/* Nav Bar */
+nav ul {
+  width: 100%;
+  list-style: none;
+}
+nav {
+  position: sticky;
+  top: 0;
+
+  z-index: 2;
+  padding: 1em;
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Hero */
+
+.hero {
+  margin: 1em auto;
+  background-color: #df407d;
+  color: aliceblue;
+  border-radius: 1em;
+  padding: 3em;
+  padding: auto;
+  text-align: center;
+}
+
+.hero button {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+/* Booking section */
+
+.booking img {
+  width: 100%;
+  display: flex;
+  margin: 4em auto;
+  border-radius: 1em;
+  height: 35em;
+}
+
+.booking {
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+.booking h2 {
+  position: absolute;
+  left: 50%;
+  bottom: 3em;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.booking button {
+  position: absolute;
+  bottom: 0em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(106, 21, 117);
+  background-color: white;
+  border-radius: 2em;
+  width: 7em;
+  border-color: white;
+}
+
+/* Row one cards */
+
+.cardRowOne {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+.card {
+  max-width: 15em;
+  margin: 0.5em;
+  border-radius: 1em;
+  height: 45vh;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card img {
+  border-radius: 1em 1em 0em 0em;
+  height: 40%;
+
+  margin-bottom: 1em;
+}
+
+.oneOne {
+  background-color: #b9482c;
+}
+.oneTwo {
+  background-color: #8d1f49;
+}
+.oneThree {
+  background-color: #df407d;
+}
+.oneFour {
+  background-color: #b42295;
+}
+
+/* Row two cards */
+
+.cardRowTwo {
+  display: flex;
+  margin: 2em;
+  justify-content: space-between;
+}
+
+.cardRowTwo div {
+  width: 48%;
+}
+
+.cardRowTwo div img {
+  width: 100%;
+  border-radius: 1em;
+}
+
+.cardRowTwo div {
+  position: relative;
+}
+.cardRowTwo h2 {
+  position: absolute;
+  top: 5%;
+  left: 7%;
+  color: white;
+  z-index: 2;
+}
+
+.cardRowTwo button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.cardRowTwo button:hover {
+  background-color: rgb(194, 194, 194);
+  color: black;
+}
+
+footer ul {
+  width: 100%;
+  list-style: none;
+}
+footer {
+  padding: 1em;
+  background-color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
